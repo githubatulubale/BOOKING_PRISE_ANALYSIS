@@ -10,7 +10,7 @@ st.set_page_config(page_title="Booking Data Dashboard", layout="wide")
 # Load Dataset
 st.write("##  Data Cleaning and Analysis")
 st.write("### Step 1: Load the Data")
-dataset = pd.read_excel(r"C:\Users\Admin\Downloads\DataAnalyst_Assesment_Dataset.xlsx")
+dataset = pd.read_excel(r"DataAnalyst_Assesment_Dataset.xlsx")
 
 st.write("Raw Data Sample:")
 st.dataframe(dataset.head())
